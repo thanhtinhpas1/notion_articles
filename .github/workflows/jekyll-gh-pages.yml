@@ -29,17 +29,6 @@ jobs:
         uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v2
-      - name: Markdown-HTML
-        uses: ZacJW/markdown-html-action@1.1.1
-        with:
-          # A JSON list of a list of paths to markdown files to render in to HTML files
-          input_files: '[["/posts/*.md"]]'
-          # A JSON list of paths to save the rendered HTML files to
-          output_files: '[["/docs/index.html"]]'
-          # (boolean) Whether or not a file should be autmatically excluded from being included more than once in a given output file
-          exclude_duplicates: true
-          # An optional path to a CSS file that will be included as a <style> block in every output file
-          builtin_stylesheet: true
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
