@@ -4,3 +4,4 @@ description: My favorite things I learned by writing into Notion
 url: https://thanhtinhpas1.github.io/notion_articles
 markdown: kramdown
 highlighter: rouge
+theme: minima
