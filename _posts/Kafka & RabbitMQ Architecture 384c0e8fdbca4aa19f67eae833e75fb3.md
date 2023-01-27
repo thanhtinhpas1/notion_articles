@@ -1,4 +1,4 @@
-# Kafka & RabbitMQ Architecture
+# Kafka and RabbitMQ
 
 ## **Apache Kafka: pull based approach**
 
